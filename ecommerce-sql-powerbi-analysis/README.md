@@ -137,22 +137,6 @@ It includes:
 
 ---
 
-## Dashboard Screenshots
-
-### Executive Summary
-
-![Executive Summary](images/executive_summary.png)
-
-### Customer & Revenue Analysis
-
-![Customer & Revenue Analysis](images/customer_revenue_analysis.png)
-
-### Delivery & Review Analysis
-
-![Delivery & Review Analysis](images/delivery_review_analysis.png)
-
----
-
 ## Project Outcome
 
 This project demonstrates the ability to:
