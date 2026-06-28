@@ -6,6 +6,10 @@ This project analyzes employee attrition patterns using Microsoft Excel. The goa
 
 The final output is an interactive Excel dashboard with KPI cards, PivotCharts, slicers, and a business insights sheet.
 
+## Dashboard Preview
+
+![Dashboard Preview](dashboard_screenshot.png)
+
 ## Business Objective
 
 To help HR teams understand employee attrition trends and identify high-risk employee groups for better retention planning.
@@ -58,6 +62,10 @@ The project uses an HR employee attrition dataset containing employee details su
 * Employees aged 25–34 show the highest attrition.
 * Low salary employees show higher attrition compared to other salary groups.
 * Overtime can be analyzed using slicers to understand its impact on employee attrition.
+
+## Business Insights Preview
+
+![Business Insights](business_insights_screenshot.png)
 
 ## Business Recommendations
 
