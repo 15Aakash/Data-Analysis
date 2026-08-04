@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project analyzes employee attrition patterns using Microsoft Excel. The goal is to identify key factors contributing to employee turnover across departments, job roles, age groups, salary bands, gender, and overtime status.
+This project analyzes 1,470 employee records using Microsoft Excel to identify patterns and higher-risk groups associated with employee attrition. The analysis examines attrition across departments, job roles, age groups, salary bands, gender, and overtime status while comparing departure volumes with actual attrition rates.
 
-The final output is an interactive Excel dashboard with KPI cards, PivotCharts, slicers, and a business insights sheet.
+The final deliverable is an interactive Excel dashboard with KPI cards, PivotTables, PivotCharts, slicers, and business insights that help translate workforce data into actionable retention recommendations.
 
 ## Dashboard Preview
 
