@@ -1,0 +1,16 @@
+Table,Column,OriginalNonNull,FailedParseCount
+patients,BirthDate,10000,0
+patients,RegistrationDate,10000,6112
+providers,HireDate,120,70
+encounters,EncounterDate,90000,0
+encounters,ArrivalDateTime,90000,0
+encounters,TriageDateTime,31771,0
+encounters,ProviderStartDateTime,89499,0
+encounters,EncounterEndDateTime,90000,54023
+encounter_procedures,ProcedureDate,70419,0
+admissions,AdmissionDateTime,17740,0
+admissions,DischargeDateTime,17616,0
+admissions,FollowUpDate,9404,0
+appointments,ScheduledDate,50000,0
+appointments,AppointmentDateTime,50000,0
+lab_results,ResultDateTime,100000,0

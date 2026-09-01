@@ -1,0 +1,121 @@
+ProviderID,DepartmentID,ProviderType,Specialty,HireDate,ActiveFlag
+PRV001,DEP003,Nurse Practitioner,Cardiology,07-02-2015,0
+PRV002,DEP022,Physician,Pediatrics,06-06-2023,0
+PRV003,DEP024,Physician,Pulmonology,25-01-2023,1
+PRV004,DEP008,Physician,Internal Medicine,14-01-2014,1
+PRV005,DEP024,Physician,Pulmonology,20-01-2013,1
+PRV006,DEP008,Physician,Internal Medicine,17-06-2014,0
+PRV007,DEP024,Physician,Pulmonology,06-06-2015,1
+PRV008,DEP022,Physician,Pediatrics,03-08-2015,1
+PRV009,DEP025,Physician Assistant,Orthopedics,20-06-2021,1
+PRV010,DEP011,Physician Assistant,Pulmonology,17-05-2025,1
+PRV011,DEP012,Physician,Emergency Medicine,04-06-2013,1
+PRV012,DEP020,Physician Assistant,Cardiology,18-08-2020,1
+PRV013,DEP023,Physician,Psychiatry,23-07-2020,1
+PRV014,DEP009,Physician,Cardiology,13-05-2025,1
+PRV015,DEP005,Nurse Practitioner,Orthopedics,01-07-2022,1
+PRV016,DEP016,Nurse Practitioner,Endocrinology,13-11-2023,1
+PRV017,DEP021,Physician,Family Medicine,21-08-2017,1
+PRV018,DEP025,Nurse Practitioner,Orthopedics,29-05-2024,1
+PRV019,DEP013,Physician,Internal Medicine,04-04-2012,1
+PRV020,DEP018,Physician,Psychiatry,27-07-2014,1
+PRV021,DEP003,Physician,Cardiology,16-01-2024,1
+PRV022,DEP016,Physician Assistant,Endocrinology,25-12-2017,1
+PRV023,DEP025,Physician,Orthopedics,18-08-2019,1
+PRV024,DEP023,Physician,Psychiatry,02-07-2014,0
+PRV025,DEP002,Nurse Practitioner,Internal Medicine,01-08-2018,1
+PRV026,DEP001,Physician,Emergency Medicine,01-10-2021,1
+PRV027,DEP020,Physician Assistant,Cardiology,19-07-2015,1
+PRV028,DEP018,Physician,Psychiatry,05-03-2022,1
+PRV029,DEP007,Physician,Emergency Medicine,27-01-2012,1
+PRV030,DEP021,Physician,Family Medicine,27-11-2017,1
+PRV031,DEP006,Physician,Oncology,24-03-2023,1
+PRV032,DEP014,Physician,Cardiology,03-01-2016,1
+PRV033,DEP011,Nurse Practitioner,Pulmonology,21-05-2023,1
+PRV034,DEP013,Physician Assistant,Internal Medicine,21-05-2014,1
+PRV035,DEP017,Physician Assistant,Family Medicine,10-09-2018,1
+PRV036,DEP010,Physician,Pediatrics,21-05-2023,1
+PRV037,DEP017,Physician,Family Medicine,28-08-2025,1
+PRV038,DEP009,Nurse Practitioner,Cardiology,17-06-2016,1
+PRV039,DEP016,Physician,Endocrinology,06-06-2015,1
+PRV040,DEP010,Physician,Pediatrics,21-05-2020,0
+PRV041,DEP015,Nurse Practitioner,Gastroenterology,16-08-2015,1
+PRV042,DEP014,Physician,Cardiology,05-02-2024,1
+PRV043,DEP020,Physician,Cardiology,23-11-2023,1
+PRV044,DEP006,Physician,Oncology,05-01-2012,1
+PRV045,DEP016,Physician,Endocrinology,07-06-2025,1
+PRV046,DEP017,Physician,Family Medicine,09-04-2019,1
+PRV047,DEP006,Nurse Practitioner,Oncology,16-12-2022,1
+PRV048,DEP011,Physician,Pulmonology,08-06-2012,1
+PRV049,DEP025,Physician,Orthopedics,05-07-2014,0
+PRV050,DEP021,Physician,Family Medicine,21-02-2020,1
+PRV051,DEP007,Physician Assistant,Emergency Medicine,24-11-2018,1
+PRV052,DEP002,Physician,Internal Medicine,15-05-2017,1
+PRV053,DEP015,Physician,Gastroenterology,19-04-2013,1
+PRV054,DEP023,Physician,Psychiatry,27-05-2017,1
+PRV055,DEP005,Physician,Orthopedics,21-09-2024,1
+PRV056,DEP013,Physician,Internal Medicine,07-10-2013,1
+PRV057,DEP021,Physician,Family Medicine,02-12-2013,1
+PRV058,DEP011,Physician,Pulmonology,25-11-2022,1
+PRV059,DEP001,Physician,Emergency Medicine,20-07-2013,1
+PRV060,DEP011,Physician,Pulmonology,12-12-2023,1
+PRV061,DEP019,Nurse Practitioner,Endocrinology,27-10-2014,1
+PRV062,DEP019,Physician,Endocrinology,17-11-2014,1
+PRV063,DEP010,Physician,Pediatrics,29-08-2022,1
+PRV064,DEP012,Physician,Emergency Medicine,30-04-2024,1
+PRV065,DEP010,Physician,Pediatrics,14-09-2015,1
+PRV066,DEP003,Nurse Practitioner,Cardiology,11-12-2017,1
+PRV067,DEP019,Physician,Endocrinology,01-11-2023,0
+PRV068,DEP004,Physician,Neurology,09-08-2025,0
+PRV069,DEP015,Physician,Gastroenterology,28-06-2021,1
+PRV070,DEP002,Physician,Internal Medicine,01-10-2016,1
+PRV071,DEP009,Nurse Practitioner,Cardiology,04-02-2024,1
+PRV072,DEP012,Physician,Emergency Medicine,05-07-2016,1
+PRV073,DEP012,Physician,Emergency Medicine,28-12-2018,1
+PRV074,DEP004,Physician,Neurology,12-12-2020,1
+PRV075,DEP013,Nurse Practitioner,Internal Medicine,17-05-2020,1
+PRV076,DEP020,Physician Assistant,Cardiology,28-10-2021,1
+PRV077,DEP011,Nurse Practitioner,Pulmonology,10-08-2023,1
+PRV078,DEP002,Physician,Internal Medicine,15-02-2022,1
+PRV079,DEP007,Nurse Practitioner,Emergency Medicine,18-09-2014,1
+PRV080,DEP005,Physician,Orthopedics,23-07-2017,1
+PRV081,DEP022,Nurse Practitioner,Pediatrics,14-01-2017,1
+PRV082,DEP011,Physician,Pulmonology,08-06-2013,1
+PRV083,DEP008,Physician Assistant,Internal Medicine,01-08-2019,1
+PRV084,DEP006,Physician,Oncology,21-06-2012,1
+PRV085,DEP001,Nurse Practitioner,Emergency Medicine,12-03-2025,1
+PRV086,DEP024,Physician,Pulmonology,03-06-2024,1
+PRV087,DEP021,Nurse Practitioner,Family Medicine,28-02-2017,1
+PRV088,DEP015,Physician,Gastroenterology,13-03-2025,0
+PRV089,DEP004,Physician,Neurology,09-12-2016,1
+PRV090,DEP014,Physician Assistant,Cardiology,28-02-2012,0
+PRV091,DEP019,Physician,Endocrinology,04-08-2013,1
+PRV092,DEP023,Physician,Psychiatry,27-04-2013,1
+PRV093,DEP021,Nurse Practitioner,Family Medicine,18-02-2017,1
+PRV094,DEP023,Physician Assistant,Psychiatry,06-07-2013,1
+PRV095,DEP007,Physician Assistant,Emergency Medicine,14-09-2012,1
+PRV096,DEP018,Physician Assistant,Psychiatry,30-05-2019,1
+PRV097,DEP015,Nurse Practitioner,Gastroenterology,03-08-2013,1
+PRV098,DEP020,Physician,Cardiology,13-07-2023,0
+PRV099,DEP017,Physician Assistant,Family Medicine,03-05-2017,1
+PRV100,DEP008,Physician,Internal Medicine,31-03-2018,1
+PRV101,DEP007,Physician,Emergency Medicine,20-11-2022,0
+PRV102,DEP007,Physician,Emergency Medicine,21-10-2016,1
+PRV103,DEP022,Physician,Pediatrics,04-02-2024,1
+PRV104,DEP002,Physician,Internal Medicine,19-12-2014,1
+PRV105,DEP014,Nurse Practitioner,Cardiology,21-10-2024,1
+PRV106,DEP019,Physician,Endocrinology,03-12-2024,1
+PRV107,DEP003,Physician,Cardiology,08-08-2022,1
+PRV108,DEP018,Physician,Psychiatry,13-06-2017,0
+PRV109,DEP024,Physician,Pulmonology,10-08-2022,1
+PRV110,DEP022,Physician,Pediatrics,16-02-2021,1
+PRV111,DEP004,Physician,Neurology,08-04-2016,1
+PRV112,DEP003,Physician Assistant,Cardiology,11-02-2014,1
+PRV113,DEP005,Physician,Orthopedics,05-03-2014,1
+PRV114,DEP008,Nurse Practitioner,Internal Medicine,01-09-2021,1
+PRV115,DEP008,Physician Assistant,Internal Medicine,12-12-2019,1
+PRV116,DEP009,Physician,Cardiology,01-07-2021,1
+PRV117,DEP024,Nurse Practitioner,Pulmonology,21-03-2021,0
+PRV118,DEP001,Physician,Emergency Medicine,22-06-2022,1
+PRV119,DEP004,Physician,Neurology,19-03-2013,0
+PRV120,DEP021,Physician,Family Medicine,17-03-2014,1

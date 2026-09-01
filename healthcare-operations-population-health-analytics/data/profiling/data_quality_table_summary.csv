@@ -1,0 +1,8 @@
+Table,QualityIssues,TotalIssueOccurrences
+encounters,5,2250
+lab_results,3,1200
+encounter_diagnoses,2,918
+appointments,3,750
+encounter_procedures,2,280
+admissions,2,141
+patients,3,80

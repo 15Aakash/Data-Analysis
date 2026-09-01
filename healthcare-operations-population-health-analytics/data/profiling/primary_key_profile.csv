@@ -1,0 +1,13 @@
+Table,PrimaryKey,Rows,MissingPKCount,DuplicatePKCount,UniquePKCount
+patients,PatientID,10000,0,20,9980
+providers,ProviderID,120,0,0,120
+departments,DepartmentID,25,0,0,25
+payers,PayerID,6,0,0,6
+diagnoses,DiagnosisID,50,0,0,50
+procedures,ProcedureID,40,0,0,40
+encounters,EncounterID,90000,0,0,90000
+encounter_diagnoses,EncounterDiagnosisID,153595,0,0,153595
+encounter_procedures,EncounterProcedureID,70419,0,0,70419
+admissions,AdmissionID,17740,0,0,17740
+appointments,AppointmentID,50000,0,0,50000
+lab_results,LabResultID,100000,0,0,100000

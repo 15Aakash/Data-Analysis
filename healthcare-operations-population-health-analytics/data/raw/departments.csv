@@ -1,0 +1,26 @@
+DepartmentID,DepartmentName,FacilityName,DepartmentType,City,State
+DEP001,Emergency Department,RiverCare Central Hospital,Emergency,Richmond,VA
+DEP002,General Medicine,RiverCare Central Hospital,Inpatient,Richmond,VA
+DEP003,Cardiology,RiverCare Central Hospital,Specialty,Richmond,VA
+DEP004,Neurology,RiverCare Central Hospital,Specialty,Richmond,VA
+DEP005,Orthopedics,RiverCare Central Hospital,Specialty,Richmond,VA
+DEP006,Oncology,RiverCare Central Hospital,Specialty,Richmond,VA
+DEP007,Emergency Department,RiverCare North Hospital,Emergency,Fredericksburg,VA
+DEP008,General Medicine,RiverCare North Hospital,Inpatient,Fredericksburg,VA
+DEP009,Cardiology,RiverCare North Hospital,Specialty,Fredericksburg,VA
+DEP010,Pediatrics,RiverCare North Hospital,Specialty,Fredericksburg,VA
+DEP011,Pulmonology,RiverCare North Hospital,Specialty,Fredericksburg,VA
+DEP012,Emergency Department,RiverCare West Medical Center,Emergency,Charlottesville,VA
+DEP013,General Medicine,RiverCare West Medical Center,Inpatient,Charlottesville,VA
+DEP014,Cardiology,RiverCare West Medical Center,Specialty,Charlottesville,VA
+DEP015,Gastroenterology,RiverCare West Medical Center,Specialty,Charlottesville,VA
+DEP016,Endocrinology,RiverCare West Medical Center,Specialty,Charlottesville,VA
+DEP017,Primary Care,RiverCare Downtown Clinic,Primary Care,Richmond,VA
+DEP018,Behavioral Health,RiverCare Downtown Clinic,Behavioral Health,Richmond,VA
+DEP019,Endocrinology,RiverCare Downtown Clinic,Outpatient,Richmond,VA
+DEP020,Cardiology,RiverCare Downtown Clinic,Outpatient,Richmond,VA
+DEP021,Primary Care,RiverCare Community Clinic,Primary Care,Petersburg,VA
+DEP022,Pediatrics,RiverCare Community Clinic,Outpatient,Petersburg,VA
+DEP023,Behavioral Health,RiverCare Community Clinic,Behavioral Health,Petersburg,VA
+DEP024,Pulmonology,RiverCare Community Clinic,Outpatient,Petersburg,VA
+DEP025,Orthopedics,RiverCare Community Clinic,Outpatient,Petersburg,VA

@@ -1,0 +1,51 @@
+DiagnosisID,DiagnosisCode,DiagnosisName,DiagnosisCategory,ChronicConditionFlag
+DX001,E11,Type 2 Diabetes,Diabetes,1
+DX002,E10,Type 1 Diabetes,Diabetes,1
+DX003,I10,Essential Hypertension,Hypertension,1
+DX004,I50,Heart Failure,Heart Disease,1
+DX005,I25,Coronary Artery Disease,Heart Disease,1
+DX006,J44,Chronic Obstructive Pulmonary Disease,COPD,1
+DX007,J45,Asthma,Asthma,1
+DX008,N18,Chronic Kidney Disease,Kidney Disease,1
+DX009,J06,Acute Upper Respiratory Infection,Respiratory,0
+DX010,J18,Pneumonia,Respiratory,0
+DX011,J10,Influenza,Infectious Disease,0
+DX012,A09,Infectious Gastroenteritis,Infectious Disease,0
+DX013,S72,Hip Fracture,Injury,0
+DX014,S52,Forearm Fracture,Injury,0
+DX015,M17,Knee Osteoarthritis,Musculoskeletal,1
+DX016,M54,Low Back Pain,Musculoskeletal,0
+DX017,F32,Major Depressive Disorder,Mental Health,1
+DX018,F41,Anxiety Disorder,Mental Health,1
+DX019,G43,Migraine,Neurological,1
+DX020,G40,Epilepsy,Neurological,1
+DX021,K21,Gastroesophageal Reflux Disease,Gastrointestinal,1
+DX022,K52,Noninfective Gastroenteritis,Gastrointestinal,0
+DX023,C50,Breast Cancer,Cancer,1
+DX024,C34,Lung Cancer,Cancer,1
+DX025,C18,Colon Cancer,Cancer,1
+DX026,E78,Hyperlipidemia,Other,1
+DX027,D64,Anemia,Other,0
+DX028,R07,Chest Pain,Other,0
+DX029,R10,Abdominal Pain,Other,0
+DX030,R51,Headache,Other,0
+DX031,I48,Atrial Fibrillation,Heart Disease,1
+DX032,I63,Ischemic Stroke,Neurological,0
+DX033,J20,Acute Bronchitis,Respiratory,0
+DX034,J30,Allergic Rhinitis,Respiratory,1
+DX035,N39,Urinary Tract Infection,Infectious Disease,0
+DX036,L03,Cellulitis,Infectious Disease,0
+DX037,M06,Rheumatoid Arthritis,Musculoskeletal,1
+DX038,M81,Osteoporosis,Musculoskeletal,1
+DX039,F20,Schizophrenia,Mental Health,1
+DX040,F31,Bipolar Disorder,Mental Health,1
+DX041,G20,Parkinson Disease,Neurological,1
+DX042,G30,Alzheimer Disease,Neurological,1
+DX043,K74,Cirrhosis,Gastrointestinal,1
+DX044,K80,Gallstone Disease,Gastrointestinal,0
+DX045,C61,Prostate Cancer,Cancer,1
+DX046,C43,Melanoma,Cancer,1
+DX047,E03,Hypothyroidism,Other,1
+DX048,E66,Obesity,Other,1
+DX049,R42,Dizziness,Other,0
+DX050,R55,Syncope,Other,0

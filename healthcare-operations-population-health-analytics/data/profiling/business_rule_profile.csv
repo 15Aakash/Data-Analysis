@@ -1,0 +1,19 @@
+RuleID,Table,Rule,IssueCount,Severity
+ADM-008,admissions,DischargeDateTime must not precede AdmissionDateTime,53,Critical
+ENC-011,encounters,EncounterEndDateTime must not precede ArrivalDateTime,0,Critical
+ENC-012,encounters,Completed encounters should have ProviderID,900,High
+LAB-006,lab_results,ResultUnit should not be missing,700,High
+ENC-010,encounters,ProviderStartDateTime must not precede ArrivalDateTime,450,High
+LAB-007,lab_results,ResultUnit must match expected unit for LabTest,300,High
+APT-008,appointments,AppointmentDateTime must not precede ScheduledDate,200,High
+LAB-009,lab_results,ReferenceLow must not exceed ReferenceHigh,200,High
+ENC-008,encounters,EncounterCost must be non-negative,180,High
+EPR-006,encounter_procedures,ProcedureCost must be non-negative,140,High
+ADM-014,admissions,Completed follow-up must have FollowUpDate,88,High
+PAT-004,patients,BirthDate must be before RegistrationDate,29,High
+PAT-003,patients,BirthDate must not be after study end date,10,High
+ENC-006,encounters,EncounterType must use approved categories,450,Medium
+APT-006,appointments,AppointmentStatus must use approved categories,150,Medium
+PAT-005,patients,Gender must use approved categories,50,Medium
+ADM-013,admissions,FollowUpCompletedFlag should be consistent with FollowUpRequiredFlag,0,Medium
+APT-010,appointments,Cancelled appointments should have CancellationReason,0,Medium

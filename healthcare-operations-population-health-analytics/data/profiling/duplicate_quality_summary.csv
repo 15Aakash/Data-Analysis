@@ -1,0 +1,5 @@
+Check,Table,IssueCount,Severity
+PatientID uniqueness,patients,20,Critical
+Encounter-Diagnosis duplicate business key,encounter_diagnoses,459,High
+Encounter-Procedure-Date duplicates,encounter_procedures,0,Medium
+Multiple Primary diagnoses per encounter,encounter_diagnoses,253,High

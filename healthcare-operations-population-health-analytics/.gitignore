@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment / credentials
+.env
+*.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+
+# Database / local connection artifacts
+*.bak
+*.mdf
+*.ldf
+
+# Generated data layers
+data/staging/
+data/cleaned/
+data/processed/

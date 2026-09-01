@@ -1,0 +1,41 @@
+ProcedureID,ProcedureCode,ProcedureName,ProcedureCategory,StandardCost
+PROC001,PR001,Complete Blood Count,Laboratory,85.0
+PROC002,PR002,Basic Metabolic Panel,Laboratory,95.0
+PROC003,PR003,HbA1c Test,Laboratory,70.0
+PROC004,PR004,Lipid Panel,Laboratory,90.0
+PROC005,PR005,Urinalysis,Laboratory,55.0
+PROC006,PR006,Chest X-Ray,Imaging,220.0
+PROC007,PR007,Abdominal X-Ray,Imaging,240.0
+PROC008,PR008,CT Scan - Head,Imaging,850.0
+PROC009,PR009,CT Scan - Chest,Imaging,950.0
+PROC010,PR010,MRI - Brain,Imaging,1450.0
+PROC011,PR011,MRI - Spine,Imaging,1550.0
+PROC012,PR012,Ultrasound,Imaging,480.0
+PROC013,PR013,Electrocardiogram,Diagnostic,180.0
+PROC014,PR014,Echocardiogram,Diagnostic,625.0
+PROC015,PR015,Pulmonary Function Test,Diagnostic,350.0
+PROC016,PR016,Stress Test,Diagnostic,675.0
+PROC017,PR017,EEG,Diagnostic,525.0
+PROC018,PR018,Endoscopy,Diagnostic,1250.0
+PROC019,PR019,IV Fluid Administration,Therapeutic,150.0
+PROC020,PR020,Nebulizer Treatment,Therapeutic,130.0
+PROC021,PR021,Wound Care,Therapeutic,175.0
+PROC022,PR022,Medication Infusion,Therapeutic,420.0
+PROC023,PR023,Dialysis Session,Therapeutic,900.0
+PROC024,PR024,Appendectomy,Surgical,8200.0
+PROC025,PR025,Gallbladder Surgery,Surgical,9600.0
+PROC026,PR026,Knee Arthroscopy,Surgical,7800.0
+PROC027,PR027,Hip Replacement,Surgical,24500.0
+PROC028,PR028,Cardiac Catheterization,Surgical,12500.0
+PROC029,PR029,Minor Surgical Procedure,Surgical,1800.0
+PROC030,PR030,Physical Therapy Session,Rehabilitation,160.0
+PROC031,PR031,Occupational Therapy Session,Rehabilitation,170.0
+PROC032,PR032,Speech Therapy Session,Rehabilitation,165.0
+PROC033,PR033,Annual Physical Examination,Preventive,210.0
+PROC034,PR034,Vaccination,Preventive,75.0
+PROC035,PR035,Cancer Screening,Preventive,450.0
+PROC036,PR036,Diabetes Screening,Preventive,120.0
+PROC037,PR037,Blood Pressure Screening,Preventive,45.0
+PROC038,PR038,Colonoscopy,Diagnostic,1600.0
+PROC039,PR039,Mammography,Imaging,350.0
+PROC040,PR040,Bone Density Scan,Imaging,300.0

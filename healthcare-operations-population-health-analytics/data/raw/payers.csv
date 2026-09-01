@@ -1,0 +1,7 @@
+PayerID,PayerName,PayerType
+PAY01,Medicare,Government
+PAY02,Medicaid,Government
+PAY03,Commercial Insurance,Commercial
+PAY04,Employer Sponsored,Commercial
+PAY05,Self Pay,Self Pay
+PAY06,Other,Other

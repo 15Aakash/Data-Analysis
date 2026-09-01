@@ -1,0 +1,6 @@
+LabTest,LowerBound,UpperBound,ExtremeOutlierCount
+Creatinine,-0.43,2.44,58
+Glucose,-37.1,248.29,59
+HbA1c,0.05,12.37,63
+Hemoglobin,5.67,22.75,59
+LDL Cholesterol,-49.23,280.1,61

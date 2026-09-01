@@ -1,0 +1,7 @@
+Table,Column,FailedNumericParseCount
+procedures,StandardCost,0
+encounters,EncounterCost,0
+encounter_procedures,ProcedureCost,0
+lab_results,ResultValue,0
+lab_results,ReferenceLow,0
+lab_results,ReferenceHigh,0
