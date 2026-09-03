@@ -1,14 +1,50 @@
 # Data Analytics Portfolio
 
-A collection of end-to-end data analytics projects demonstrating practical experience in **SQL, Power BI, Excel, Python, data modeling, ETL, statistical analysis, and business intelligence**.
+A collection of end-to-end data analytics projects demonstrating practical experience in **SQL, Python, Power BI, Tableau, Excel, Snowflake, AWS, dbt, ETL, data modeling, statistical analysis, experimentation, and business intelligence**.
 
-These projects focus on solving business problems through structured analysis, KPI development, dashboarding, and data-driven recommendations.
+These projects focus on solving business problems through structured analysis, cloud data workflows, KPI development, statistical testing, dashboarding, and data-driven recommendations.
 
 ---
 
 ## Projects
 
-### 1. Healthcare Operations & Population Health Analytics
+### 1. NovaFlow SaaS Product Growth & Experimentation Analytics
+
+**Tools:** Python, Pandas, AWS S3, Snowflake, dbt, SQL, Tableau, Statistics, A/B Testing
+
+Built an end-to-end SaaS product analytics platform simulating a modern cloud analytics workflow across **3.1M+ raw records, 100,000 users, 535,936 sessions, and 1.6M product events**.
+
+Key KPIs:
+
+- **7-Day Activation Rate:** 50.96%
+- **DAU:** 2,314
+- **WAU:** 11,437
+- **MAU:** 31,796
+- **MRR:** $445,152
+- **ARR:** $5.34M
+- **Active Paid Share:** 56.79%
+- **Latest Full-Month Paid Churn:** 7.96%
+- **Largest Onboarding Step Drop-off:** 23.61%
+
+Highlights:
+
+- Generated **13 interconnected synthetic SaaS datasets** using Python and Pandas
+- Built a cloud ingestion workflow using **Amazon S3 and Snowflake**
+- Implemented secure AWS IAM access and Snowflake external storage integration
+- Developed **13 dbt staging models** for cleaning, deduplication, type conversion, and referential validation
+- Built **10 analytics marts** supporting activation, onboarding, engagement, retention, feature adoption, revenue, churn, support, and experimentation
+- Executed a final dbt pipeline with **108 models/tests passing and 0 errors**
+- Calculated product metrics including DAU, WAU, MAU, retention, feature adoption, MRR, ARR, and paid subscription churn
+- Identified the largest onboarding bottleneck between **Workspace Preferences and Tutorial Completed**, with a **23.61% drop-off**
+- Performed an A/B test on a simplified onboarding flow using a two-proportion significance test and 95% confidence interval
+- Found **50.92% Control vs 50.73% Treatment activation**, with **p ≈ 0.879**, indicating no statistically significant improvement
+- Built **5 Tableau dashboards** covering executive KPIs, retention and product adoption, revenue and churn, support analytics, and experimentation
+
+[View Project](./saas-product-growth-experimentation-analytics)
+
+---
+
+### 2. Healthcare Operations & Population Health Analytics
 
 **Tools:** Python, Pandas, Microsoft SQL Server, Power BI, DAX, ETL, Dimensional Modeling, Statistics
 
@@ -28,7 +64,7 @@ Highlights:
 
 ---
 
-### 2. E-Commerce Customer & Revenue Analysis
+### 3. E-Commerce Customer & Revenue Analysis
 
 **Tools:** SQL, Power BI, DAX, Data Modeling
 
@@ -54,7 +90,7 @@ Highlights:
 
 ---
 
-### 3. HR Employee Attrition Analysis
+### 4. HR Employee Attrition Analysis
 
 **Tools:** Excel, PivotTables, PivotCharts, Power Query, Data Analysis
 
@@ -84,24 +120,37 @@ Highlights:
 
 - SQL
 - Microsoft SQL Server
+- Snowflake
+- Python
+- Pandas
 - Power BI
+- Tableau
 - DAX
 - Excel
 - Power Query
-- Python
-- Pandas
+- dbt
+- AWS S3
+- AWS IAM
 - ETL
 - Data Cleaning
 - Data Quality
 - Data Modeling
 - Dimensional Modeling
 - Data Warehousing
+- Cloud Analytics
 - KPI Development
+- Product Analytics
+- Revenue Analytics
+- Customer Analytics
 - Statistical Analysis
+- Hypothesis Testing
+- A/B Testing
+- Confidence Intervals
 - Root-Cause Analysis
 - Dashboard Development
 - Business Intelligence
 - Data Governance
+- Git & GitHub
 
 ---
 
@@ -109,6 +158,18 @@ Highlights:
 
 My projects demonstrate experience across:
 
-**Business Problem → Data Preparation → SQL Analysis → Data Modeling → Statistical Analysis → Dashboard Development → Business Insights**
+**Business Problem → Requirements Gathering → Data Design → Data Preparation → Cloud Storage → Data Warehousing → ETL/dbt Transformation → SQL Analysis → Statistical Analysis → Experimentation → Dashboard Development → Business Insights**
 
 The goal of this portfolio is to demonstrate practical, end-to-end analytical thinking rather than only individual technical exercises.
+
+Across the portfolio, I have worked with analytics problems involving:
+
+- SaaS product growth and experimentation
+- Healthcare operations and population health
+- E-commerce customer and revenue performance
+- Employee attrition and workforce analytics
+- User activation and onboarding funnels
+- Retention and engagement analysis
+- MRR, ARR, and subscription churn
+- A/B testing and statistical significance
+- Executive KPI reporting and business intelligence
