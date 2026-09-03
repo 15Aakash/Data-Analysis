@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: stg_sessions
+    description: Cleaned and validated NovaFlow user session records.
+
+    columns:
+      - name: session_id
+        description: Unique identifier for each session.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: user_id
+        description: User associated with the session.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+      - name: platform
+        description: Platform used for the session.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Web
+                  - Android
+                  - iOS
+
+      - name: device_type
+        description: Device category used during the session.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Desktop
+                  - Mobile
+                  - Tablet
+
+      - name: session_status
+        description: Final session status.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Completed
+                  - Abandoned

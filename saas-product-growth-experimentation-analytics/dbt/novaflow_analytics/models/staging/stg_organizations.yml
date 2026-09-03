@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_organizations
+    description: Cleaned and deduplicated NovaFlow organization records.
+
+    columns:
+      - name: organization_id
+        description: Unique identifier for each organization.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: company_size
+        description: Organization size category.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Small
+                  - Medium
+                  - Enterprise
+
+      - name: organization_status
+        description: Current organization status.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Active
+                  - Suspended
+                  - Closed

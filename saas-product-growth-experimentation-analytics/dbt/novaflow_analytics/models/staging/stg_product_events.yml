@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: stg_product_events
+    description: Cleaned and validated NovaFlow product interaction events.
+
+    columns:
+      - name: event_id
+        description: Unique identifier for each product event.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: user_id
+        description: User who generated the event.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+      - name: session_id
+        description: Session in which the event occurred.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_sessions')
+                field: session_id
+
+      - name: feature_id
+        description: Feature associated with the event when applicable.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_features')
+                field: feature_id
+
+      - name: platform
+        description: Platform on which the event occurred.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Web
+                  - Android
+                  - iOS
+
+      - name: event_timestamp
+        description: Timestamp when the event occurred.
+        data_tests:
+          - not_null

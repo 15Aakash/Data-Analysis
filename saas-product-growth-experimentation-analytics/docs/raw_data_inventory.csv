@@ -1,0 +1,14 @@
+file_name,exists,row_count
+users.csv,True,100075
+organizations.csv,True,8000
+plans.csv,True,3
+subscriptions.csv,True,72050
+payments.csv,True,208456
+sessions.csv,True,535936
+features.csv,True,12
+product_events.csv,True,1601461
+onboarding_events.csv,True,486792
+marketing_attribution.csv,True,100000
+support_tickets.csv,True,27745
+experiments.csv,True,3
+experiment_assignments.csv,True,6151

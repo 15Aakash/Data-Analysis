@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: stg_subscriptions
+    description: Cleaned and validated NovaFlow subscription records.
+
+    columns:
+      - name: subscription_id
+        description: Unique identifier for each subscription.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: billing_cycle
+        description: Valid subscription billing frequency.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Monthly
+                  - Annual
+
+      - name: subscription_status
+        description: Current valid subscription status.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Active
+                  - Cancelled
+                  - Expired
+                  - Trial
+
+      - name: plan_id
+        description: Subscription plan identifier.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_plans')
+                field: plan_id
+
+      - name: user_id
+        description: User owner when the subscription belongs to an individual user.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+      - name: organization_id
+        description: Organization owner when the subscription belongs to an organization.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_organizations')
+                field: organization_id

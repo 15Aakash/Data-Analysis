@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: stg_marketing_attribution
+    description: Cleaned and validated NovaFlow user marketing attribution records.
+
+    columns:
+      - name: attribution_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+      - name: acquisition_channel
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Organic Search
+                  - Paid Search
+                  - Social
+                  - Direct
+                  - Referral
+                  - Partner
+                  - Email
+
+      - name: medium
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - organic
+                  - cpc
+                  - social
+                  - direct
+                  - referral
+                  - partner
+                  - email
+
+      - name: attributed_timestamp
+        data_tests:
+          - not_null

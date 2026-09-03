@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large generated datasets
+data/raw/*
+data/staging/*
+data/processed/*
+
+# Keep folder structure if .gitkeep files are added
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/processed/.gitkeep
+
+# dbt generated artifacts
+dbt/logs/
+dbt/novaflow_analytics/target/
+dbt/novaflow_analytics/logs/
+dbt/novaflow_analytics/dbt_packages/
+
+# Environment variables / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+
+# Temporary Tableau files
+*.twb~
+*.twbr

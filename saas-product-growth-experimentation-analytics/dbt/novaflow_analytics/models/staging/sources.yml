@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw NovaFlow SaaS data loaded from Amazon S3 into Snowflake.
+
+    database: NOVAFLOW
+    schema: RAW
+
+    tables:
+      - name: users
+      - name: organizations
+      - name: plans
+      - name: subscriptions
+      - name: payments
+      - name: sessions
+      - name: features
+      - name: product_events
+      - name: onboarding_events
+      - name: marketing_attribution
+      - name: support_tickets
+      - name: experiments
+      - name: experiment_assignments

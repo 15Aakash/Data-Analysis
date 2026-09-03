@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: stg_experiment_assignments
+    description: Cleaned and validated NovaFlow experiment assignment records.
+
+    columns:
+      - name: assignment_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: experiment_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_experiments')
+                field: experiment_id
+
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+      - name: experiment_group
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Control
+                  - Treatment
+
+      - name: assigned_timestamp
+        data_tests:
+          - not_null
+
+      - name: exposure_timestamp
+        data_tests:
+          - not_null

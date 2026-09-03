@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: stg_features
+    description: Cleaned NovaFlow product feature reference data.
+
+    columns:
+      - name: feature_id
+        description: Unique identifier for each feature.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: minimum_plan
+        description: Minimum subscription plan required for the feature.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Free
+                  - Pro
+                  - Business
+
+      - name: feature_status
+        description: Current status of the feature.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Active
+                  - Beta

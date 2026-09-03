@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: stg_onboarding_events
+    description: Cleaned and validated NovaFlow onboarding funnel events.
+
+    columns:
+      - name: onboarding_event_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+      - name: onboarding_step
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Account Created
+                  - Email Verified
+                  - Profile Completed
+                  - Workspace Preferences
+                  - Tutorial Completed
+                  - First Project Created
+
+      - name: step_order
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3, 4, 5, 6]
+
+      - name: completion_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Completed
+                  - Abandoned
+
+      - name: event_timestamp
+        data_tests:
+          - not_null

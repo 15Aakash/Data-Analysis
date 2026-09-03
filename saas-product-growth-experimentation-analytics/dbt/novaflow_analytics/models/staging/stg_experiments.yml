@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_experiments
+    description: Cleaned and validated NovaFlow product experiment definitions.
+
+    columns:
+      - name: experiment_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: primary_metric
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Activation Rate
+                  - Paid Conversion Rate
+                  - Feature Adoption Rate
+
+      - name: start_date
+        data_tests:
+          - not_null
+
+      - name: experiment_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Completed
+                  - Running

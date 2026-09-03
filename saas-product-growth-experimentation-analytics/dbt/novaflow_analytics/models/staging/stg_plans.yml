@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: stg_plans
+    description: Cleaned NovaFlow subscription plan reference data.
+
+    columns:
+      - name: plan_id
+        description: Unique identifier for each plan.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: plan_name
+        description: Name of the subscription plan.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Free
+                  - Pro
+                  - Business
+
+      - name: plan_status
+        description: Current status of the plan.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Active

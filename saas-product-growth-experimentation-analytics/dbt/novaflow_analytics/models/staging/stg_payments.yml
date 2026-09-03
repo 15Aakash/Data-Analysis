@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: stg_payments
+    description: Cleaned and validated NovaFlow payment transaction records.
+
+    columns:
+      - name: payment_id
+        description: Unique identifier for each payment.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: subscription_id
+        description: Subscription associated with the payment.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_subscriptions')
+                field: subscription_id
+
+      - name: currency
+        description: Valid payment currency.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - USD
+
+      - name: payment_status
+        description: Valid payment transaction status.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Successful
+                  - Failed
+                  - Refunded
+
+      - name: payment_method_type
+        description: Payment method used for the transaction.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Card
+                  - PayPal
+                  - Bank Transfer

@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: stg_support_tickets
+    description: Cleaned and validated NovaFlow customer support ticket records.
+
+    columns:
+      - name: ticket_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: user_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_users')
+                field: user_id
+
+      - name: ticket_category
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Product Issue
+                  - Billing
+                  - Feature Request
+                  - Account
+                  - Integration
+                  - Performance
+                  - Security
+
+      - name: priority
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Low
+                  - Medium
+                  - High
+                  - Critical
+
+      - name: ticket_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Open
+                  - In Progress
+                  - Resolved
+                  - Closed
+
+      - name: created_timestamp
+        data_tests:
+          - not_null

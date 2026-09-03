@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_users
+    description: Cleaned and deduplicated NovaFlow user records.
+
+    columns:
+      - name: user_id
+        description: Unique identifier for each user.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: signup_platform
+        description: Valid platform used when the user registered.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Web
+                  - Android
+                  - iOS
+
+      - name: account_status
+        description: Current valid account status.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Active
+                  - Suspended
+                  - Deleted
