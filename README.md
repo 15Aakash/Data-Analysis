@@ -116,6 +116,39 @@ Highlights:
 
 ---
 
+### 5. Customer Sales & Inventory Operations Optimization
+
+**Tools:** Python, Pandas, Microsoft SQL Server, Excel, Power Query, ERPNext, RFM Analysis, ABC-XYZ Analysis, Inventory Planning
+
+Built an end-to-end business operations analytics solution using the **UCI Online Retail II dataset with 1.07M+ transactions** to analyze customer performance, identify growth and revenue recovery opportunities, optimize inventory planning, and demonstrate an ERP order-to-cash workflow.
+
+Key KPIs:
+
+- **Customers:** 5,852
+- **Revenue:** £17.07M
+- **Orders:** 36,594
+- **High-Priority Customer Opportunities:** 1,109
+- **Revenue Recovery Gap:** £596.6K
+- **Products Analyzed:** 4,733
+- **Aggregate Reorder Point Units:** 672,451
+
+Highlights:
+
+- Built Python data profiling, cleaning, validation, and SQL staging workflows across **1.07M+ retail transactions**
+- Developed reusable SQL Server analytical views for customer segmentation, revenue opportunities, product demand, and inventory recommendations
+- Applied **RFM analysis** to identify Champions, Loyal Customers, High Value At Risk, At Risk, and other customer segments
+- Identified **1,109 high-priority customer opportunities** across retention, reactivation, expansion, service, and revenue recovery use cases
+- Quantified a **£596.6K revenue gap** against prior 90-day customer performance
+- Classified **4,733 products** using **ABC, XYZ, and movement analysis**
+- Developed safety stock, reorder point, replenishment priority, and inventory reduction recommendations
+- Built refreshable **Excel + Power Query** reporting for executive KPIs, customer accounts, growth opportunities, and inventory optimization
+- Recreated a representative historical transaction in **ERPNext** through Sales Order → Delivery Note → Sales Invoice → Payment Entry
+- Completed the ERP workflow for **640 units and £1,112.20**, ending with the transaction **Completed / Paid**
+
+[View Project](./customer-sales-inventory-operations-optimization)
+
+---
+
 ## Core Skills Demonstrated
 
 - SQL
