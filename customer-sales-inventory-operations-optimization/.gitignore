@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/
+data/interim/
+*.pyc
+~$*.xlsx
+Thumbs.db
